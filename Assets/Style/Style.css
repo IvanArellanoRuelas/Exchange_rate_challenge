@@ -1,0 +1,70 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid #3486eb;
+  border-bottom: 3px solid #3486eb;
+  width: 75%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #808080;
+  align-items: center;
+  justify-content: center;
+}
+
+#amount {
+  width: 165px;
+  height: 25px;
+  text-align: center;
+}
+
+#Texto {
+  color: white;
+  margin: 5px;
+  width: 165px;
+  text-align: center;
+}
+
+#Moneda {
+  width: 165px;
+  height: 30px;
+  margin: 10px;
+}
+
+#Buscar {
+  width: 165px;
+  height: 30px;
+  background-color: #33ccff;
+  color: white;
+  border-color: #33ccff;
+}
+
+option {
+  text-align: center;
+}
+
+#Resultado {
+  color: white;
+  margin: 5px;
+  width: 165px;
+  text-align: center;
+}
+
+#myChart {
+  background-color: white;
+  width: 90%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Tipo de cambio</title>
+    <link rel="stylesheet" href="./Assets/Style/Style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <h1>Conversor de monedas Nacional</h1>
+    <div id="main">
+      <h3>Pesos CLP</h3>
+      <input type="number" placeholder="Ingrese el monto en CLP" id="amount" />
+      <p id="Texto">Moneda a convertir:</p>
+      <select name="" id="Moneda">
+        <option value="" disabled selected>Selecione Moneda</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+      <button id="Buscar" onclick="get_price()">Buscar</button>
+      <p id="Resultado">...</p>
+      <h1>Ultimos Precios</h1>
+      <canvas id="myChart"></canvas>
+    </div>
+    <footer>
+      <script src="./Assets/JS/index.js"></script>
+    </footer>
+  </body>
+</html>
